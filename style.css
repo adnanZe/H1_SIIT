@@ -1,0 +1,113 @@
+/* Global settings */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600;800&display=swap");
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Styling contents */
+
+main {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  width: 40rem;
+}
+
+img {
+  width: 40rem;
+  height: 50rem;
+  object-fit: cover;
+}
+
+.container-description {
+  margin: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-family: inherit;
+  font-size: 2.3rem;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0;
+}
+
+.feedback-item {
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.star {
+  margin-right: 1rem;
+}
+
+.rating {
+  margin-right: 3rem;
+}
+
+.likes {
+  margin-right: 1rem;
+}
+
+span.item-description {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 300;
+  color: #777777;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 0.7rem 3.5rem;
+  border: 0.5rem solid black;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+button.cart {
+  background-color: black;
+  color: #fff;
+}
+
+button.view {
+  background-color: #fff;
+  color: #000;
+}
+
+button.cart:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+button.view:hover {
+  background-color: black;
+  color: #fff;
+}
