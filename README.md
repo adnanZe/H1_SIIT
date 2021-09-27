@@ -12,3 +12,8 @@ https://fonts.google.com/specimen/Mulish?query=muli&selection.family=Ovo&sidebar
 Example from mentor:
 
 <img width="1240" alt="Example" src="https://user-images.githubusercontent.com/64636548/134931216-0961240a-b1a6-4cff-bec7-9bc35955e542.png">
+
+
+Preview: 
+
+https://adnanze.github.io/H1_SIIT/
