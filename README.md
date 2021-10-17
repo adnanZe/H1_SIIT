@@ -16,4 +16,8 @@ Example from mentor:
 
 Preview: 
 
-https://adnanze.github.io/H1_SIIT/
+
+![ss1](https://user-images.githubusercontent.com/64636548/137639656-e3aaadb9-308c-48a2-a8e9-eff72a505ce7.png)
+
+
+![ss2](https://user-images.githubusercontent.com/64636548/137639690-fe814429-c95b-4770-8985-35d070de761a.png)
