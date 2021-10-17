@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
 
@@ -18,10 +19,12 @@ main {
   height: 100vh;
   align-items: center;
   justify-content: space-around;
+  margin: 0 10rem;
 }
 
 section {
   width: 40rem;
+  transition: height 2s;
 }
 
 img {
@@ -65,6 +68,18 @@ h2 {
   margin-right: 1rem;
 }
 
+.fa-star {
+  color: goldenrod;
+}
+
+.fa-heart {
+  color: #77777755;
+}
+
+.two > .fa-heart {
+  color: red;
+}
+
 span.item-description {
   display: inline-block;
   margin-bottom: 2rem;
@@ -81,7 +96,7 @@ span.item-description {
 }
 
 button {
-  margin-right: 1rem;
+  margin: 0 1rem;
   padding: 0.7rem 3.5rem;
   border: 0.5rem solid black;
   font-family: inherit;
@@ -89,7 +104,7 @@ button {
   font-size: 1.5rem;
   font-weight: 800;
   cursor: pointer;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 button.cart {
@@ -102,12 +117,41 @@ button.view {
   color: #000;
 }
 
-button.cart:hover {
-  background-color: #fff;
-  color: #000;
+section:hover {
+  background: linear-gradient(
+    0deg,
+    rgba(166, 166, 166, 0.2) 0%,
+    rgba(110, 110, 110, 0) 3%
+  );
 }
 
-button.view:hover {
-  background-color: black;
-  color: #fff;
+button:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+@media (max-width: 1500px) {
+  main {
+    margin: 0rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+  }
+  .one {
+    margin-top: 5rem;
+  }
+  .two {
+    margin: 5rem 0;
+  }
+
+  .three {
+    margin-bottom: 5rem;
+  }
 }
