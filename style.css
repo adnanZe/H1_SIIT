@@ -10,6 +10,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
+  overflow-x: hidden !important;
 }
 
 /* Styling contents */
@@ -23,7 +24,7 @@ main {
 }
 
 section {
-  width: 40rem;
+  /* width: 40rem; */
   transition: height 2s;
 }
 
