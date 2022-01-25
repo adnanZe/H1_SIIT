@@ -24,3 +24,6 @@ https://fonts.google.com/specimen/Mulish?query=muli&selection.family=Ovo&sidebar
 
  :paperclip: https://adnanze.github.io/PageDesign/
 
+:iphone: :heavy_check_mark:
+:computer: :heavy_check_mark:
+:desktop_computer: :heavy_check_mark:
